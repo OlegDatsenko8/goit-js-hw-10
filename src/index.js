@@ -2,7 +2,7 @@ import './css/styles.css';
 import debounce from 'lodash.debounce';
 import Notiflix from 'notiflix';
 import { fetchCountries } from './fetchCountries';
-
+// const
 const DEBOUNCE_DELAY = 300;
 
 let getEl = selector => document.querySelector(selector);
